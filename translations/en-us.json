@@ -5,6 +5,7 @@
     "greeting": "Hello! This is a translation test.",
     "description": "This application demonstrates how Crowdin translations work with four-letter locale codes.",
     "switch-language": "Switch Language",
+    "additional-info": "Try switching languages to see the translations in action!",
     "note": "Current locale:",
     "footer": "Built with StudioCMS — Open Source CMS"
   }
