@@ -1,0 +1,10 @@
+{
+  "displayName": "Español (es)",
+  "translations": {
+    "page-title": "Bienvenido a StudioCMS",
+    "greeting": "¡Hola! Esta es una prueba de traducción.",
+    "description": "Esta aplicación demuestra cómo funcionan las traducciones de Crowdin con códigos de idioma de dos letras.",
+    "switch-language": "Cambiar idioma",
+    "footer": "Hecho con StudioCMS — CMS de código abierto"
+  }
+}
