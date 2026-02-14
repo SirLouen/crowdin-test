@@ -5,6 +5,7 @@
     "greeting": "¡Hola! Esta es una prueba de traducción.",
     "description": "Esta aplicación demuestra cómo funcionan las traducciones de Crowdin con códigos de idioma de dos letras.",
     "switch-language": "Cambiar idioma",
+    "note": "Current locale:",
     "footer": "Hecho con StudioCMS — CMS de código abierto"
   }
 }
