@@ -79,17 +79,17 @@
   <header>
     <span id="switch-label">Switch Language</span>
     <div class="lang-switcher">
-      <a id="lang-en" onclick="switchLang('en')" class="active">EN</a>
-      <a id="lang-es" onclick="switchLang('es')">ES</a>
+      <a id="lang-en-us" onclick="switchLang('en-us')" class="active">EN-US</a>
+      <a id="lang-es-es" onclick="switchLang('es-es')">ES-ES</a>
     </div>
   </header>
 
   <main>
     <h1 id="page-title">Welcome to StudioCMS</h1>
     <p class="greeting" id="greeting">Hello! This is a translation test.</p>
-    <p class="description" id="description">This application demonstrates how Crowdin translations work with two-letter locale codes.</p>
+    <p class="description" id="description">This application demonstrates how Crowdin translations work with four-letter locale codes.</p>
     <p class="note" id="note">Current locale:</p>
-    <span class="current-locale" id="locale-badge">en</span>
+    <span class="current-locale" id="locale-badge">en-us</span>
   </main>
 
   <footer>
@@ -98,7 +98,7 @@
 
   <script>
     const translations = {};
-    let currentLang = 'en';
+    let currentLang = 'en-us';
 
     async function loadTranslation(lang) {
       if (translations[lang]) return translations[lang];
@@ -131,8 +131,8 @@
     }
 
     // Preload both languages
-    loadTranslation('en');
-    loadTranslation('es');
+    loadTranslation('en-us');
+    loadTranslation('es-es');
   </script>
 </body>
 </html>

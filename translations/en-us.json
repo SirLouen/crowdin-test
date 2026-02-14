@@ -1,9 +1,9 @@
 {
-  "displayName": "English (en)",
+  "displayName": "English (en-us)",
   "translations": {
     "page-title": "Welcome to StudioCMS",
     "greeting": "Hello! This is a translation test.",
-    "description": "This application demonstrates how Crowdin translations work with two-letter locale codes.",
+    "description": "This application demonstrates how Crowdin translations work with four-letter locale codes.",
     "switch-language": "Switch Language",
     "note": "Current locale:",
     "footer": "Built with StudioCMS — Open Source CMS"
